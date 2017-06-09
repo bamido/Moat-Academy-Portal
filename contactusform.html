@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>Contact US Form </title>
+
+</head>
+<body>
+	<h2>Contact US Form </h2>
+	<form method="post" name="LoginForm" autocomplete="on">
+		<table border="0" width="30%" >
+			<tr>
+				<td>Email Address</td>
+				<td><input type="email" placeholder="Email Address Here" name="email" /></td>
+			</tr>
+			<tr>
+				<td>Names</td>
+				<td><input type="text" placeholder="enter your names" name="names" /></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td>
+				<input type="radio" name="gender" /> Male <br />
+				<input type="radio" name="gender" /> Female				
+				</td>			
+			</tr>
+			<tr>
+				<td>Home Address</td>
+				<td><textarea cols="25" rows="5" name="homeaddress" ></textarea></td>			
+			</tr>
+			<tr>
+				<td>Country</td>
+				<td>
+					<select name="country">
+						<option value="Nigeria"> Nigeria </option>
+						<option value="Ghana"> Ghana </option>
+						<option value="Cameroon"> Cameroon </option>
+						<option value="Niger"> Niger </option>
+						<option value="Chad"> Chad </option>
+						<option value="Benin"> Benin </option>
+					</select>
+				</td>			
+			</tr>
+			<tr>
+				<td>Feedback via</td>
+				<td>
+					<input type="checkbox" name="feedback1" /> Phone <br />
+					<input type="checkbox" name="feedback2" /> Fax
+				</td>			
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<input type="submit" name="submit" value="Submit" />
+					<input type="reset" name="reset" value="Clear" />
+				</td>
+			</tr>
+
+		</table>
+	</form>
+</body>
+</html>
